@@ -84,21 +84,21 @@
 <section class="suscripcion">
     <div class="contenedor">
         <h2>Solicita mas información</h2>
-        <forma
-  acción="https://formspree.io/f/xbdvraro"
-  método="PUBLICAR"
+        <form
+  action="https://formspree.io/f/xdarnwln"
+  method="POST"
 >
-  <etiqueta>
-    E-mailul tău:
-    <entrada tipo="correo electrónico" nombre="correo electrónico">
-  </etiqueta>
-  <etiqueta>
-    Mesajul tău:
-    <área de texto nombre="mensaje"></área de texto>
-  </etiqueta>
-  <!-- tus otros campos de formulario van aquí -->
-  <botón tipo="enviar">Enviar</botón>
-</forma>   </div>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>   </div>
 </section> <!-- FIN SUSCRIPCION -->
 <footer class="piedepagina" role="contentinfo">
     <div class="contenedor">
